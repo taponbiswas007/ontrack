@@ -525,6 +525,7 @@ header {
 /* Our Philosophy start */
 .our_Philosophy_area {
     background: #053B5B24;
+    overflow: hidden;
 }
 
 .heart_avatar_image {
@@ -558,6 +559,12 @@ header {
     text-align: justify;
     vertical-align: middle;
     color: #000000;
+}
+
+@media (max-width:992px) {
+    .our_Philosophy_area h1 {
+        margin-top: 0;
+    }
 }
 
 @media (max-width:420px) {
@@ -642,34 +649,120 @@ header {
     letter-spacing: 0px;
     color: #ffffff;
 }
-.address_area{
-     max-width: 548px;
+
+.address_area {
+    max-width: 548px;
     width: 100%;
 }
-.contact_form label{
+
+.contact_form label {
     font-family: Poppins;
-font-weight: 500;
-font-style: Medium;
-font-size: 12px;
-line-height: 12px;
-letter-spacing: 0%;
-text-transform: uppercase;
-color: #FFFFFF;
-margin-bottom: 12px;
-display: block;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+    display: block;
 }
-.contact_form  input{
+
+.contact_form input {
     font-family: Poppins;
-font-weight: 400;
-font-style: Regular;
-font-size: 14px;
-line-height: 26px;
-letter-spacing: 0px;
-color:#6C7275 ;
-border: none;
-border-radius: 6px;
-border: 1px solid #CBCBCB;
-padding: 7px 16px;
-width: 100%;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    color: #6C7275;
+    border: none;
+    border-radius: 6px;
+    border: 1px solid #CBCBCB;
+    padding: 7px 16px;
+    width: 100%;
 }
+
+.contact_form textarea {
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    color: #6C7275;
+    border: none;
+    border-radius: 6px;
+    border: 1px solid #CBCBCB;
+    padding: 7px 16px;
+    width: 100%;
+    height: 140px;
+    resize: none;
+}
+
+.submitBtn {
+    font-family: Poppins;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    color: #ffffff;
+    background: #FF5758;
+}
+
+.copywriteArea {
+    background: #025586;
+    padding: 20px;
+}
+
+.footernavlink_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footernavlink_list li {
+    color: #ffffff;
+}
+
+.footernavlink_list li a {
+    font-family: Poppins;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #FEFEFE;
+
+}
+
+.copywriteText {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    color: #E8ECEF;
+    margin-top: 11px;
+    text-align: center;
+    text-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+    .map_area {
+        max-width: unset;
+    }
+}
+
+@media (max-width: 420px) {
+    .footernavlink_list {
+        gap: 10px;
+    }
+}
+
 /* footer end */
