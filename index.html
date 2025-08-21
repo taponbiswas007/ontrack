@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ontrack</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Latest Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <!-- top bar start -->
+    <section class="topbar py-3">
+        <div class="container-fluid">
+            <div class=" d-flex justify-content-sm-between justify-content-center align-items-center flex-wrap gap-3">
+                <ul class="social_link_list">
+                    <li>
+                        <a href="#" class="social_link">
+                            <i class="fa-brands fa-square-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="social_link">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="contact_list">
+                    <li>
+                        <a href="tel:  281-246-0103" class="contact_link">
+                            <i class="fa-solid fa-phone"></i>
+                            <span> 281-246-0103</span>
+                        </a>
+                    </li>
+                    <li class="separator">
+                        |
+                    </li>
+                    <li>
+                        <a href="mailto:admin@ontrackphysicaltherapy.com" class="contact_link">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span> admin@ontrackphysicaltherapy.com</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- top bar end -->
+
+    <!-- =========navigation area start========= -->
+    <header class="py-3">
+        <div class="container-fluid">
+            <div class="d-flex position-relative justify-content-between align-items-center gap-3">
+                <div class="logo_area">
+                    <a href="index.html" class="logo">
+                        <img src="assets/images/onTracklogo.png" alt="OnTrack">
+                        <ul>
+                            <li>
+                                OnTrack Physical Therapy & wellness
+                            </li>
+                            <li>
+                                where you get back on track
+                            </li>
+                        </ul>
+                    </a>
+                </div>
+                <div class="navigation_area">
+                    <nav>
+                        <a href="index.html" class="nav_link active">home</a>
+                        <a href="aboutUs.html" class="nav_link">About Us</a>
+                        <a href="services.html" class="nav_link">Services</a>
+                        <a href="insurance.html" class="nav_link d-xxl-block d-lg-none d-block">Insurance</a>
+                        <a href="testimonials.html" class="nav_link d-xxl-block d-lg-none d-block">Testimonials</a>
+                        <a href="fAQ.html" class="nav_link d-xxl-block d-lg-none d-block">FAQ</a>
+                        <a href="contactUs.html" class="nav_link d-xxl-block d-lg-none d-block">Contact Us</a>
+                        <div class="d-xxl-none d-lg-block d-none position-relative moreItemactive">
+                            <button class="nav_link ">
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <span>More</span>
+                                    <span class="d-block ms-2" style="margin-bottom: -6px;"><i
+                                            class="fa-solid fa-angle-down"></i></span>
+                                </div>
+                            </button>
+                            <ul class="moreNavitemlist position-absolute top-100 bg-white rounded-3 shadow p-4">
+                                <li class="mb-4">
+                                    <a href="insurance.html" class="nav_link">Insurance</a>
+                                </li>
+                                <li class="mb-4">
+                                    <a href="testimonials.html" class="nav_link">Testimonials</a>
+                                </li>
+                                <li class="mb-4">
+                                    <a href="fAQ.html" class="nav_link">FAQ</a>
+                                </li>
+                                <li>
+                                    <a href="contactUs.html" class="nav_link">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <hr class="d-md-none d-block">
+                    <a href="contactUs.html" class="btn d-md-none d-block requestanAppointment">
+                        Request an Appointment
+                    </a>
+                </div>
+                <div class="d-flex justify-content-end align-items-center gap-4">
+                    <a href="contactUs.html" class="btn requestanAppointment d-md-block d-none">
+                        Request an Appointment
+                    </a>
+                    <button class="menutogglebtn d-lg-none">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- =========navigation area end========= -->
+
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <!-- Latest jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+
+    <!-- custom js -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
