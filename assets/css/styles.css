@@ -596,3 +596,80 @@ header {
 }
 
 /* Your 3-Step Journey to Recovery  end*/
+
+
+/* footer start */
+.footer_area {
+    background: #053B5B;
+    overflow: hidden;
+}
+
+.footer_area h1 {
+    font-family: Poppins;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 40px;
+    letter-spacing: 0px;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: capitalize;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+
+.footerlogo_area {
+    background: #ffffff;
+    border-radius: 3px;
+    padding: 11px 20px;
+    margin-bottom: 48px;
+    max-width: 427px;
+    width: 100%;
+}
+
+.map_area {
+    max-width: 548px;
+    width: 100%;
+    height: 215px;
+    margin-bottom: 37px;
+}
+
+.addressList li {
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    color: #ffffff;
+}
+.address_area{
+     max-width: 548px;
+    width: 100%;
+}
+.contact_form label{
+    font-family: Poppins;
+font-weight: 500;
+font-style: Medium;
+font-size: 12px;
+line-height: 12px;
+letter-spacing: 0%;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-bottom: 12px;
+display: block;
+}
+.contact_form  input{
+    font-family: Poppins;
+font-weight: 400;
+font-style: Regular;
+font-size: 14px;
+line-height: 26px;
+letter-spacing: 0px;
+color:#6C7275 ;
+border: none;
+border-radius: 6px;
+border: 1px solid #CBCBCB;
+padding: 7px 16px;
+width: 100%;
+}
+/* footer end */
