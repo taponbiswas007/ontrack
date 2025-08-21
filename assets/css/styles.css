@@ -307,7 +307,7 @@ header {
 @media (max-width: 992px) {
     .navigation_area {
         width: 250px;
-        height: calc(100vh - 100px);
+        height: calc(100vh - 140px);
         position: absolute;
         right: 0;
         top: 100%;
