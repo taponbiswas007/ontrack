@@ -1253,13 +1253,16 @@ header {
     max-width: 768px;
     margin: 0 auto;
 }
-.faq_item{
+
+.faq_item {
     padding: 24px 0;
     border-bottom: 2px solid #EAECF0;
 }
-.faq_item:last-child{
+
+.faq_item:last-child {
     border-bottom: none;
 }
+
 .faq_item h4 {
     font-family: Poppins;
     font-weight: 500;
@@ -1281,25 +1284,30 @@ header {
     color: #667085;
     padding: 10px 0;
 }
-.expendicon{
+
+.expendicon {
     color: #FF5758;
     font-size: 21px;
 }
+
 .faqitems .expendicon .plus {
     display: inline-block;
 }
+
 .faqitems[aria-expanded="true"] .expendicon .plus {
     display: none;
 }
+
 .faqitems .expendicon .minus {
     display: none;
 }
+
 .faqitems[aria-expanded="true"] .expendicon .minus {
     display: inline-block;
 }
 
 @media (max-width: 576px) {
-    .faq_item h4{
+    .faq_item h4 {
         font-size: 16px;
         line-height: 24px;
     }
@@ -1313,27 +1321,55 @@ header {
 /* ============================================================ */
 /* ====================Privecy policy page start====================== */
 /* =============================================================== */
-.privecy_p_and_terms_hero{
-      
+.privecy_p_and_terms_hero {
+
     background: url(../images/privacy_Policy_hero.png) no-repeat 0 0 / 100% 100%;
-  background-color: #ffffff;
-  height: 538px;
+    background-color: #ffffff;
+    height: 538px;
 }
-.privecy_p_and_terms_hero h1{
+
+.privecy_p_and_terms_hero h1 {
     font-family: Poppins;
-font-weight: 500;
-font-style: Medium;
-font-size: 40px;
-letter-spacing: 0px;
-text-align: center;
-vertical-align: middle;
-text-transform: capitalize;
-color: #053B5B;
-padding-top: 120px;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 40px;
+    letter-spacing: 0px;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: capitalize;
+    color: #053B5B;
+    padding-top: 120px;
 }
-.policy_main_area{
-    
+
+.policy_main_area {
+    max-width: 1170px;
+    margin: 0 auto;
 }
+
+.policy_main_area p {
+    color: #000000 !important;
+    max-width: unset !important;
+    line-height: 25px;
+    font-size: 16px;
+    text-align: left;
+}
+
+.policy_main_area ul {
+    list-style-type: disc;
+    padding-left: 22px;
+}
+
+.policy_main_area ul li {
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 35px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #000000;
+}
+
 /* ============================================================ */
 /* ====================Privecy policy page end====================== */
 /* =============================================================== */
