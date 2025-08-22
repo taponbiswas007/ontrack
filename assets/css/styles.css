@@ -1243,3 +1243,68 @@ header {
 /* ============================================================= */
 /* ====================Testimonials page end====================== */
 /* ============================================================= */
+
+
+
+/* ====================================================== */
+/* ====================faq page start====================== */
+/* ======================================================= */
+.faq_main_area {
+    max-width: 768px;
+    margin: 0 auto;
+}
+.faq_item{
+    padding: 24px 0;
+    border-bottom: 2px solid #EAECF0;
+}
+.faq_item:last-child{
+    border-bottom: none;
+}
+.faq_item h4 {
+    font-family: Poppins;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color: #101828;
+    text-align: left;
+}
+
+.faq_answer {
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 31px;
+    letter-spacing: 0%;
+    color: #667085;
+    padding: 10px 0;
+}
+.expendicon{
+    color: #FF5758;
+    font-size: 21px;
+}
+.faqitems .expendicon .plus {
+    display: inline-block;
+}
+.faqitems[aria-expanded="true"] .expendicon .plus {
+    display: none;
+}
+.faqitems .expendicon .minus {
+    display: none;
+}
+.faqitems[aria-expanded="true"] .expendicon .minus {
+    display: inline-block;
+}
+
+@media (max-width: 576px) {
+    .faq_item h4{
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+/* ====================================================== */
+/* ====================faq page end====================== */
+/* ======================================================= */

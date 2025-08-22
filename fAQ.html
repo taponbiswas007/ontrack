@@ -14,7 +14,7 @@
         rel="stylesheet">
 
     <!-- bootstrap cdn -->
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <!-- Latest Font Awesome CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -116,12 +116,12 @@
                     </div>
                     <div class="navigation_area">
                         <nav>
-                            <a href="index.html" class="nav_link active">home</a>
+                            <a href="index.html" class="nav_link ">home</a>
                             <a href="aboutUs.html" class="nav_link">About Us</a>
                             <a href="services.html" class="nav_link">Services</a>
                             <a href="insurance.html" class="nav_link d-xxl-block d-lg-none d-block">Insurance</a>
                             <a href="testimonials.html" class="nav_link d-xxl-block d-lg-none d-block">Testimonials</a>
-                            <a href="fAQ.html" class="nav_link d-xxl-block d-lg-none d-block">FAQ</a>
+                            <a href="fAQ.html" class="nav_link active d-xxl-block d-lg-none d-block">FAQ</a>
                             <a href="contactUs.html" class="nav_link d-xxl-block d-lg-none d-block">Contact Us</a>
                             <div class="d-xxl-none d-lg-block d-none position-relative moreItemactive">
                                 <button class="nav_link ">
@@ -139,7 +139,7 @@
                                         <a href="testimonials.html" class="nav_link">Testimonials</a>
                                     </li>
                                     <li class="mb-4">
-                                        <a href="fAQ.html" class="nav_link">FAQ</a>
+                                        <a href="fAQ.html" class="nav_link active">FAQ</a>
                                     </li>
                                     <li>
                                         <a href="contactUs.html" class="nav_link">Contact Us</a>
@@ -167,6 +167,166 @@
         </div>
     </header>
     <!-- =========navigation area end========= -->
+
+    <!-- ===========hero start========= -->
+    <div class="container-fluid">
+        <div class="d-flex justify-content-center align-items-center about_hero">
+            <h1>
+                FAQ
+            </h1>
+        </div>
+    </div>
+    <!-- ===========hero end========= -->
+
+
+    <!-- ==============faq area start=============== -->
+    <section class="faq_area pb-5">
+        <div class="container-fluid">
+            <div class="faq_main_area">
+                <div class="faq_main_area" id="faqAccordion">
+                    <!-- FAQ 1 -->
+                    <div class="faq_item">
+                        <button class="d-flex w-100 faqitems justify-content-between align-items-center gap-3" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">
+                            <h4>Do I need a referral for physical therapy?</h4>
+                            <div class="expendicon">
+                                <span class="plus"><i class="fa-solid fa-circle-plus"></i></span>
+                                <span class="minus"><i class="fa-solid fa-circle-minus"></i></span>
+                            </div>
+                        </button>
+                        <div id="faq1" class="collapse show" data-bs-parent="#faqAccordion">
+                            <div class=" faq_answer">
+                                I believe the most effective treatment comes from working together with your healthcare
+                                providers, and I’m always happy to collaborate with your medical team. If you already
+                                have a referral from your doctor, chiropractor, physician assistant, or APRN, I’ll
+                                gladly
+                                add it to your file. However, having a referral isn’t required for your first
+                                appointment—Texas is a direct-access state, so you can begin physical therapy
+                                without one. Just keep in mind that if you wish to continue treatment after your initial
+                                evaluation, you’ll need to provide a referral within 10 business days.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 2 -->
+                    <div class="faq_item">
+                        <button class="d-flex w-100 faqitems justify-content-between align-items-center gap-3" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
+                            <h4>What should I expect during my First appointment?</h4>
+                            <div class="expendicon">
+                                <span class="plus"><i class="fa-solid fa-circle-plus"></i></span>
+                                <span class="minus"><i class="fa-solid fa-circle-minus"></i></span>
+                            </div>
+                        </button>
+                        <div id="faq2" class="collapse" data-bs-parent="#faqAccordion">
+                            <div class=" faq_answer">
+                                At your first appointment, we’ll perform an initial evaluation, which includes
+                                discussing your medical history, current concerns, and goals. I’ll assess your mobility,
+                                strength, and posture, then explain my findings and begin developing a personalized
+                                treatment plan.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 3 -->
+                    <div class="faq_item">
+                        <button class="d-flex w-100 faqitems justify-content-between align-items-center gap-3" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
+                            <h4>How are treatment sessions organized?</h4>
+                            <div class="expendicon">
+                                <span class="plus"><i class="fa-solid fa-circle-plus"></i></span>
+                                <span class="minus"><i class="fa-solid fa-circle-minus"></i></span>
+                            </div>
+                        </button>
+                        <div id="faq3" class="collapse" data-bs-parent="#faqAccordion">
+                            <div class=" faq_answer">
+                                Each session is tailored to your goals and may include a combination of hands-on
+                                techniques, guided exercises, movement education, and home exercise planning. I’ll also
+                                reassess your progress regularly and adjust the plan as needed.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 4 -->
+                    <div class="faq_item">
+                        <button class="d-flex w-100 faqitems justify-content-between align-items-center gap-3" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">
+                            <h4>How long do the sessions take?</h4>
+                            <div class="expendicon">
+                                <span class="plus"><i class="fa-solid fa-circle-plus"></i></span>
+                                <span class="minus"><i class="fa-solid fa-circle-minus"></i></span>
+                            </div>
+                        </button>
+                        <div id="faq4" class="collapse" data-bs-parent="#faqAccordion">
+                            <div class=" faq_answer">
+                                Most sessions last between 45 and 60 minutes, depending on your needs and treatment
+                                plan.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 5 -->
+                    <div class="faq_item">
+                        <button class="d-flex w-100 faqitems justify-content-between align-items-center gap-3" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#faq5" aria-expanded="false" aria-controls="faq5">
+                            <h4>How many therapy sessions should I expect?</h4>
+                            <div class="expendicon">
+                                <span class="plus"><i class="fa-solid fa-circle-plus"></i></span>
+                                <span class="minus"><i class="fa-solid fa-circle-minus"></i></span>
+                            </div>
+                        </button>
+                        <div id="faq5" class="collapse" data-bs-parent="#faqAccordion">
+                            <div class=" faq_answer">
+                                The number of sessions depends on your condition, goals, and how your body responds to
+                                therapy. Some clients see improvements in just a few visits, while others benefit from
+                                ongoing care over several weeks.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ  6-->
+                    <div class="faq_item">
+                        <button class="d-flex w-100 faqitems justify-content-between align-items-center gap-3" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#faq6" aria-expanded="false" aria-controls="faq5">
+                            <h4>Do you accept insurance?</h4>
+                            <div class="expendicon">
+                                <span class="plus"><i class="fa-solid fa-circle-plus"></i></span>
+                                <span class="minus"><i class="fa-solid fa-circle-minus"></i></span>
+                            </div>
+                        </button>
+                        <div id="faq6" class="collapse" data-bs-parent="#faqAccordion">
+                            <div class=" faq_answer">
+                                Yes, I accept most major insurance plans. Please contact me to verify your specific
+                                coverage and benefits before your first appointment.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 7 -->
+                    <div class="faq_item">
+                        <button class="d-flex w-100 faqitems justify-content-between align-items-center gap-3 gap-3" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#faq7" aria-expanded="false" aria-controls="faq5">
+                            <h4>Do you accept insurance?</h4>
+                            <div class="expendicon">
+                                <span class="plus"><i class="fa-solid fa-circle-plus"></i></span>
+                                <span class="minus"><i class="fa-solid fa-circle-minus"></i></span>
+                            </div>
+                        </button>
+                        <div id="faq7" class="collapse" data-bs-parent="#faqAccordion">
+                            <div class=" faq_answer">
+                                Your active participation is essential for success. Be prepared to move, communicate
+                                openly about how you're feeling, and stay consistent with any home exercises or
+                                recommendations I provide.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- ==============faq area end=============== -->
+
 
     <!-- ===================footer area start======================= -->
     <footer class="footer_area py-lg-5 py-4">
