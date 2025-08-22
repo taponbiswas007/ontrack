@@ -1050,6 +1050,15 @@ header {
     vertical-align: middle;
     text-transform: capitalize;
     color: #000000;
+    text-wrap: nowrap;
+}
+
+.areasWetreat table {
+    width: 100%;
+}
+
+.areasWetreat table tr td {
+    padding: 10px 20px 10px 0;
 }
 
 @media (max-width: 546px) {
@@ -1179,6 +1188,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 5px;
 }
 
 .star_box .star {
