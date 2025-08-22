@@ -1,333 +1,648 @@
  <!DOCTYPE html>
-<html lang="en">
+ <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="assets/images/onTracklogo.png" type="image/x-icon">
-    <title>𝙾𝚗𝚃𝚛𝚊𝚌𝚔 𝙿𝚑𝚢𝚜𝚒𝚌𝚊𝚕 𝚃𝚑𝚎𝚛𝚊𝚙𝚢 & 𝚠𝚎𝚕𝚕𝚗𝚎𝚜𝚜 || 𝚃𝚎𝚛𝚖𝚜 𝙰𝚗𝚍 𝚄𝚜𝚎</title>
-    <!-- google font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="shortcut icon" href="assets/images/onTracklogo.png" type="image/x-icon">
+     <title>𝙾𝚗𝚃𝚛𝚊𝚌𝚔 𝙿𝚑𝚢𝚜𝚒𝚌𝚊𝚕 𝚃𝚑𝚎𝚛𝚊𝚙𝚢 & 𝚠𝚎𝚕𝚕𝚗𝚎𝚜𝚜 || 𝚃𝚎𝚛𝚖𝚜 𝙰𝚗𝚍 𝚄𝚜𝚎</title>
+     <!-- google font -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link
+         href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+         rel="stylesheet">
 
-    <!-- bootstrap cdn -->
+     <!-- bootstrap cdn -->
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-    <!-- Latest Font Awesome CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+         integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+     <!-- Latest Font Awesome CDN -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-    <!-- custom css -->
-    <link rel="stylesheet" href="assets/css/styles.css">
-</head>
+     <!-- custom css -->
+     <link rel="stylesheet" href="assets/css/styles.css">
+ </head>
 
-<body>
+ <body>
 
-    <!--======================== Preloader start==================-->
-    <div id="preloader">
-        <div class="loader">
-            <!-- Road -->
-            <div class="road"></div>
+     <!--======================== Preloader start==================-->
+     <div id="preloader">
+         <div class="loader">
+             <!-- Road -->
+             <div class="road"></div>
 
-            <!-- Running Man SVG -->
-            <svg id="runner" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-                <circle cx="50" cy="20" r="8" fill="#053B5B" />
-                <rect x="47" y="28" width="6" height="20" fill="#FF5758" />
-                <!-- Arms -->
-                <line x1="50" y1="35" x2="35" y2="45" stroke="#053B5B" stroke-width="4">
-                    <animate attributeName="x2" values="35;65;35" dur="1s" repeatCount="indefinite" />
-                </line>
-                <line x1="50" y1="35" x2="65" y2="45" stroke="#053B5B" stroke-width="4">
-                    <animate attributeName="x2" values="65;35;65" dur="1s" repeatCount="indefinite" />
-                </line>
-                <!-- Legs -->
-                <line x1="50" y1="48" x2="35" y2="70" stroke="#053B5B" stroke-width="4">
-                    <animate attributeName="x2" values="35;65;35" dur="1s" repeatCount="indefinite" />
-                </line>
-                <line x1="50" y1="48" x2="65" y2="70" stroke="#053B5B" stroke-width="4">
-                    <animate attributeName="x2" values="65;35;65" dur="1s" repeatCount="indefinite" />
-                </line>
-            </svg>
+             <!-- Running Man SVG -->
+             <svg id="runner" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                 <circle cx="50" cy="20" r="8" fill="#053B5B" />
+                 <rect x="47" y="28" width="6" height="20" fill="#FF5758" />
+                 <!-- Arms -->
+                 <line x1="50" y1="35" x2="35" y2="45" stroke="#053B5B" stroke-width="4">
+                     <animate attributeName="x2" values="35;65;35" dur="1s" repeatCount="indefinite" />
+                 </line>
+                 <line x1="50" y1="35" x2="65" y2="45" stroke="#053B5B" stroke-width="4">
+                     <animate attributeName="x2" values="65;35;65" dur="1s" repeatCount="indefinite" />
+                 </line>
+                 <!-- Legs -->
+                 <line x1="50" y1="48" x2="35" y2="70" stroke="#053B5B" stroke-width="4">
+                     <animate attributeName="x2" values="35;65;35" dur="1s" repeatCount="indefinite" />
+                 </line>
+                 <line x1="50" y1="48" x2="65" y2="70" stroke="#053B5B" stroke-width="4">
+                     <animate attributeName="x2" values="65;35;65" dur="1s" repeatCount="indefinite" />
+                 </line>
+             </svg>
 
-            <!-- Text -->
-            <div class="loading-text">On Track Sports — Loading…</div>
-        </div>
-    </div>
-    <!--======================== Preloader end==================-->
-
-
-    <!-- top bar start -->
-    <section class="topbar py-3">
-        <div class="container-fluid">
-            <div class=" d-flex justify-content-sm-between justify-content-center align-items-center flex-wrap gap-3">
-                <ul class="social_link_list">
-                    <li>
-                        <a href="#" class="social_link">
-                            <i class="fa-brands fa-square-instagram"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="social_link">
-                            <i class="fa-brands fa-facebook"></i>
-                        </a>
-                    </li>
-                </ul>
-                <ul class="contact_list">
-                    <li>
-                        <a href="tel:  281-246-0103" class="contact_link">
-                            <i class="fa-solid fa-phone"></i>
-                            <span> 281-246-0103</span>
-                        </a>
-                    </li>
-                    <li class="separator">
-                        |
-                    </li>
-                    <li>
-                        <a href="mailto:admin@ontrackphysicaltherapy.com" class="contact_link">
-                            <i class="fa-solid fa-envelope"></i>
-                            <span> admin@ontrackphysicaltherapy.com</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
-    <!-- top bar end -->
-
-    <!-- =========navigation area start========= -->
-    <header class="py-3">
-        <div class="position-relative">
-            <div class="container-fluid">
-                <div class="d-flex justify-content-between align-items-center gap-3">
-                    <div class="logo_area">
-                        <a href="index.html" class="logo">
-                            <img src="assets/images/onTracklogo.png" alt="OnTrack">
-                            <ul>
-                                <li>
-                                    OnTrack Physical Therapy & wellness
-                                </li>
-                                <li>
-                                    where you get back on track
-                                </li>
-                            </ul>
-                        </a>
-                    </div>
-                    <div class="navigation_area">
-                        <nav>
-                            <a href="index.html" class="nav_link active">home</a>
-                            <a href="aboutUs.html" class="nav_link">About Us</a>
-                            <a href="services.html" class="nav_link">Services</a>
-                            <a href="insurance.html" class="nav_link d-xxl-block d-lg-none d-block">Insurance</a>
-                            <a href="testimonials.html" class="nav_link d-xxl-block d-lg-none d-block">Testimonials</a>
-                            <a href="fAQ.html" class="nav_link d-xxl-block d-lg-none d-block">FAQ</a>
-                            <a href="contactUs.html" class="nav_link d-xxl-block d-lg-none d-block">Contact Us</a>
-                            <div class="d-xxl-none d-lg-block d-none position-relative moreItemactive">
-                                <button class="nav_link ">
-                                    <div class="d-flex justify-content-center align-items-center">
-                                        <span>More</span>
-                                        <span class="d-block ms-2" style="margin-bottom: -6px;"><i
-                                                class="fa-solid fa-angle-down"></i></span>
-                                    </div>
-                                </button>
-                                <ul class="moreNavitemlist position-absolute top-100 bg-white rounded-3 shadow p-4">
-                                    <li class="mb-4">
-                                        <a href="insurance.html" class="nav_link">Insurance</a>
-                                    </li>
-                                    <li class="mb-4">
-                                        <a href="testimonials.html" class="nav_link">Testimonials</a>
-                                    </li>
-                                    <li class="mb-4">
-                                        <a href="fAQ.html" class="nav_link">FAQ</a>
-                                    </li>
-                                    <li>
-                                        <a href="contactUs.html" class="nav_link">Contact Us</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </nav>
-                        <hr class="d-md-none d-block">
-                        <a href="contactUs.html" class="btn d-md-none d-block requestanAppointment">
-                            Request an Appointment
-                        </a>
-                    </div>
-                    <div class="d-flex justify-content-end align-items-center gap-4">
-                        <a href="contactUs.html" class="btn btn-primary requestanAppointment d-md-block d-none">
-                            Request an Appointment
-                        </a>
-                        <button class="menutogglebtn d-lg-none">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-    <!-- =========navigation area end========= -->
-
-    <!-- ===================footer area start======================= -->
-    <footer class="footer_area py-lg-5 py-4">
-        <div class="container-fluid">
-            <div class="px-xxl-4">
-                <h1>
-                    Contact Us
-                </h1>
-                <div class="row g-lg-5 g-3">
-                    <div class="col-lg-6 col-md-6">
-                        <div class="footerlogo_area">
-                            <div class="logo_area">
-                                <a href="index.html" class="logo">
-                                    <img src="assets/images/onTracklogo.png" alt="OnTrack">
-                                    <ul>
-                                        <li>
-                                            OnTrack Physical Therapy & wellness
-                                        </li>
-                                        <li>
-                                            where you get back on track
-                                        </li>
-                                    </ul>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="map_area">
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3456.479750957938!2d-95.70116252382749!3d29.96563962229911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640d5c7e3c9518b%3A0x1479864bba539faf!2s17820%20Mound%20Rd%2C%20Cypress%2C%20TX%2077433%2C%20USA!5e0!3m2!1sen!2sbd!4v1755794570881!5m2!1sen!2sbd"
-                                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
-                                referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        </div>
-                        <div class="address_area">
-                            <div class="row g-4">
-                                <div class="col-xl-7  col-md-12 col-sm-7">
-                                    <ul class="addressList">
-                                        <li>
-                                            17820 Mound Rd. , Suite: E, Cypress, TX 77433
-                                        </li>
-                                        <li>
-                                            <div class="d-flex justify-content-start align-items-center gap-3">
-                                                <span>
-                                                    <b>PH :</b> 281-246-0103
-                                                </span>
-                                                <span>
-                                                    <b>Fax :</b> 281-246-1026
-                                                </span>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <b>Email:</b> admin@ontrackphysicaltherapy.com
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="col-xl-5  col-md-12 col-sm-5">
-                                    <ul class="addressList">
-                                        <li>
-                                            <b>Mon:</b> 9 to 4
-                                        </li>
-                                        <li>
-                                            <b>Wed:</b> 8 to 6
-                                        </li>
-                                        <li>
-                                            <b>Fri:</b> 1 to 6
-                                        </li>
-                                        <li>
-                                            <b>Sat:</b> With appointments only
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6">
-                        <hr class="d-md-none d-block bg-white">
-                        <form action="" class="contact_form">
-                            <div class="row g-4">
-                                <div class="col-xl-6 col-md-12 col-sm-6">
-                                    <label for="">Full Name</label>
-                                    <input type="text" placeholder="Your First Name">
-                                </div>
-                                <div class="col-xl-6 col-md-12 col-sm-6">
-                                    <label for="">Last Name</label>
-                                    <input type="text" placeholder="Your Last Name">
-                                </div>
-                                <div class="col-xl-6 col-md-12 col-sm-6">
-                                    <label for="">Your Email</label>
-                                    <input type="text" placeholder="Your Email">
-                                </div>
-                                <div class="col-xl-6 col-md-12 col-sm-6">
-                                    <label for="">contact number</label>
-                                    <input type="text" placeholder="Your Contact Number">
-                                </div>
-                                <div class="col-xl-12">
-                                    <label for="">subject</label>
-                                    <input type="text" placeholder="subject">
-                                </div>
-                                <div class="col-xl-12">
-                                    <label for="">message</label>
-                                    <textarea name="" id="" placeholder="Your message"></textarea>
-                                </div>
-                                <div class="col-xl-12">
-                                    <button class="btn submitBtn btn-primary">
-                                        Send Message
-                                    </button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <div class="copywriteArea">
-        <ul class="footernavlink_list">
-            <li>
-                <a href="privacyPolicy.html">Privacy Policy</a>
-            </li>
-            <li>
-                |
-            </li>
-            <li>
-                <a href="termsandUse.html">Terms and Use</a>
-            </li>
-            <li>
-                |
-            </li>
-            <li>
-                <a href="services.html">Services</a>
-            </li>
-        </ul>
-        <p class="copywriteText">Copyright 2025 @ OnTrack Physical Therapy & Wellness. All rights reserved</p>
-    </div>
-    <!-- ===================footer area end======================= -->
+             <!-- Text -->
+             <div class="loading-text">On Track Sports — Loading…</div>
+         </div>
+     </div>
+     <!--======================== Preloader end==================-->
 
 
-    <!-- ============back to top start=========== -->
-    <button id="backToTop"><i class="fa-solid fa-arrow-up"></i></button>
-    <!-- ============back to top ene=========== -->
+     <!-- top bar start -->
+     <section class="topbar py-3">
+         <div class="container-fluid">
+             <div class=" d-flex justify-content-sm-between justify-content-center align-items-center flex-wrap gap-3">
+                 <ul class="social_link_list">
+                     <li>
+                         <a href="#" class="social_link">
+                             <i class="fa-brands fa-square-instagram"></i>
+                         </a>
+                     </li>
+                     <li>
+                         <a href="#" class="social_link">
+                             <i class="fa-brands fa-facebook"></i>
+                         </a>
+                     </li>
+                 </ul>
+                 <ul class="contact_list">
+                     <li>
+                         <a href="tel:  281-246-0103" class="contact_link">
+                             <i class="fa-solid fa-phone"></i>
+                             <span> 281-246-0103</span>
+                         </a>
+                     </li>
+                     <li class="separator">
+                         |
+                     </li>
+                     <li>
+                         <a href="mailto:admin@ontrackphysicaltherapy.com" class="contact_link">
+                             <i class="fa-solid fa-envelope"></i>
+                             <span> admin@ontrackphysicaltherapy.com</span>
+                         </a>
+                     </li>
+                 </ul>
+             </div>
+         </div>
+     </section>
+     <!-- top bar end -->
+
+     <!-- =========navigation area start========= -->
+     <header class="py-3">
+         <div class="position-relative">
+             <div class="container-fluid">
+                 <div class="d-flex justify-content-between align-items-center gap-3">
+                     <div class="logo_area">
+                         <a href="index.html" class="logo">
+                             <img src="assets/images/onTracklogo.png" alt="OnTrack">
+                             <ul>
+                                 <li>
+                                     OnTrack Physical Therapy & wellness
+                                 </li>
+                                 <li>
+                                     where you get back on track
+                                 </li>
+                             </ul>
+                         </a>
+                     </div>
+                     <div class="navigation_area">
+                         <nav>
+                             <a href="index.html" class="nav_link">home</a>
+                             <a href="aboutUs.html" class="nav_link">About Us</a>
+                             <a href="services.html" class="nav_link">Services</a>
+                             <a href="insurance.html" class="nav_link d-xxl-block d-lg-none d-block">Insurance</a>
+                             <a href="testimonials.html" class="nav_link d-xxl-block d-lg-none d-block">Testimonials</a>
+                             <a href="fAQ.html" class="nav_link d-xxl-block d-lg-none d-block">FAQ</a>
+                             <a href="contactUs.html" class="nav_link d-xxl-block d-lg-none d-block">Contact Us</a>
+                             <div class="d-xxl-none d-lg-block d-none position-relative moreItemactive">
+                                 <button class="nav_link ">
+                                     <div class="d-flex justify-content-center align-items-center">
+                                         <span>More</span>
+                                         <span class="d-block ms-2" style="margin-bottom: -6px;"><i
+                                                 class="fa-solid fa-angle-down"></i></span>
+                                     </div>
+                                 </button>
+                                 <ul class="moreNavitemlist position-absolute top-100 bg-white rounded-3 shadow p-4">
+                                     <li class="mb-4">
+                                         <a href="insurance.html" class="nav_link">Insurance</a>
+                                     </li>
+                                     <li class="mb-4">
+                                         <a href="testimonials.html" class="nav_link">Testimonials</a>
+                                     </li>
+                                     <li class="mb-4">
+                                         <a href="fAQ.html" class="nav_link">FAQ</a>
+                                     </li>
+                                     <li>
+                                         <a href="contactUs.html" class="nav_link">Contact Us</a>
+                                     </li>
+                                 </ul>
+                             </div>
+                         </nav>
+                         <hr class="d-md-none d-block">
+                         <a href="contactUs.html" class="btn d-md-none d-block requestanAppointment">
+                             Request an Appointment
+                         </a>
+                     </div>
+                     <div class="d-flex justify-content-end align-items-center gap-4">
+                         <a href="contactUs.html" class="btn btn-primary requestanAppointment d-md-block d-none">
+                             Request an Appointment
+                         </a>
+                         <button class="menutogglebtn d-lg-none">
+                             <span></span>
+                             <span></span>
+                             <span></span>
+                         </button>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </header>
+     <!-- =========navigation area end========= -->
+
+
+     <!--============== hero area start ==============-->
+     <section class="privecy_p_and_terms_hero">
+         <div class="container-fluid">
+             <h1>Terms and Use</h1>
+         </div>
+     </section>
+     <!--============== hero area end ==============-->
+
+     <!-- ===========Terms and Use========== -->
+     <section class="py-5 policy_area">
+         <div class="container-fluid">
+             <div class="policy_main_area">
+                 <div class="card border-0 mb-5">
+                     <p class="mb-4 text-start">Last updated: 08/18/2025</p>
+                     <p class="text-start">This document outlines how HK Therapy & Wellness services LLC (“OnTrack
+                         Physical
+                         Therapy & Wellness,” “us,” “we,” or “our”) manages and shares the information you
+                         provide via www.ontrackphysicaltherapy,com, its subdomains, and related online/social
+                         media platforms, including accounts on Facebook and Instagram. Should you have any
+                         questions about this Terms and Use Policy, please use the contact details provided
+                         below. By accessing or using this Site, you agree to comply with the “Terms and Use”
+                         Policy.</p>
+                 </div>
+                 <!-- Acceptance of Terms -->
+                 <div class="card border-0 mb-5">
+                     <h2 class="fs-4 mb-3 text-uppercase">
+                         Acceptance of Terms
+                     </h2>
+                     <p>
+                         By accessing and using the OnTrack Physical Therapy & Wellness website, you agree
+                         to comply with these Terms and Use and all applicable federal and Texas state laws and
+                         regulations. The information found on this site is intended for educational and
+                         informational purposes only and should not be considered medical advice. We
+                         encourage you to consult directly with a licensed healthcare professional regarding any
+                         health concerns or treatment options. If you do not accept these Terms, you must
+                         discontinue use of this site immediately.
+                     </p>
+                 </div>
+
+                 <!-- Copyright and Intellectual Property -->
+                 <div class="card border-0 mb-5">
+                     <h2 class="fs-4 mb-3 text-uppercase">
+                         Copyright and Intellectual Property
+                     </h2>
+                     <p>The name, logo, service marks and any associated trademarks of OnTrack Physical
+                         Therapy & Wellness are the exclusive intellectual property of the OnTrack Physical & Wellness
+                         clinic or the third party and are protected by applicable trademark laws. Any
+                         use, reproduction, or distribution of these trademarks, website content without obtaining
+                         prior written authorization from OnTrack Physical therapy & Wellness is strictly
+                         prohibited. Unauthorized use may result in legal action. Individuals or organizations
+                         seeking permission to use our branding materials must submit a formal request to the contact
+                         information provided above. OnTrack Physical Therapy & Wellness reserves the
+                         right to grant or deny such requests at its sole discretion.</p>
+                 </div>
+
+
+                 <!-- Website Content -->
+                 <div class="card border-0 mb-5">
+                     <h2 class="fs-4 mb-3 text-uppercase">
+                         Website Content
+                     </h2>
+                     <p>All content on this website, including text, graphics, images, and other materials, is
+                         provided for informational purposes only. While we strive to ensure accuracy and
+                         currency of information, OnTrack Physical Therapy & Wellness makes no warranties or
+                         representations regarding the completeness or reliability of content. Professional advice
+                         should always be sought for specific medical or health concerns. By submitting any questions,
+                         comments, feedback, or other communications through
+                         our website, you transfer all related intellectual property rights to us. These submissions
+                         become our exclusive property, and we reserve the right to use them for any lawful
+                         purpose, including commercial uses. For more information about how we handle
+                         submitted data, please review our privacy policy.</p>
+                 </div>
+
+                 <!--User Responsibilities -->
+                 <div class="card border-0 mb-5">
+                     <h2 class="fs-4 mb-3 text-uppercase">
+                         User Responsibilities
+                     </h2>
+                     <ul>
+                         <li>
+                             You agree to use this website only for lawful purposes and in a manner that does
+                             not infringe upon, restrict, or inhibit others from using and enjoying the site.
+
+                         </li>
+                         <li>
+                             You must not submit any content that is unlawful, offensive, defamatory, or may
+                             result in legal consequences.
+
+                         </li>
+                         <li>
+                             Any information submitted through forms or contact features must be accurate
+                             and not misleading.
+                         </li>
+                     </ul>
+                 </div>
+
+                 <!-- User-Generated Content Policy -->
+                 <div class="card border-0 mb-5">
+                     <h2 class="fs-4 mb-3 text-uppercase">
+                         User-Generated Content Policy
+                     </h2>
+                     <ul>
+                         <li>This website does not enable users to submit or post material directly. However,
+                             you may be provided opportunities to create, upload, display, or share content
+                             and materials—referred to as “Contributions”—such as text, images, or personal
+                             information. These Contributions may be accessible to other users or appear on
+                             third-party platforms.
+                         </li>
+                         <li>
+                             By submitting any information or materials, you allow us to access, store,
+                             process, and utilize your data as described.
+
+                         </li>
+                         <li>
+                             OnTrack Physical Therapy & Wellness does not claim ownership of your
+                             Contributions. We disclaim responsibility for any statements or representations
+                             found within user-submitted content. You are solely accountable for your
+                             Contributions and agree to hold us harmless from any claims or actions related to
+                             your submissions.
+                         </li>
+                     </ul>
+                 </div>
+
+                 <!-- Privacy and Data Protection -->
+                 <div class="card border-0 mb-5">
+                     <h2 class="fs-4 mb-3 text-uppercase">
+                         Privacy and Data Protection
+                     </h2>
+
+                     <ul>
+                         <li>
+                             We respect your privacy and manage all personal information in accordance with
+                             applicable laws, including the Texas Medical Privacy Act and other relevant
+                             regulations.
+
+                         </li>
+                         <li>
+                             Personal data submitted via this website will not be sold or rented to third parties.
+
+                         </li>
+                         <li>
+                             For details on how we collect, use, and protect your information, please refer to
+                             our Privacy Policy or contact us for a copy.
+                         </li>
+
+                     </ul>
+                 </div>
+
+                 <!-- Term and Termination -->
+                 <div class="card border-0 mb-5">
+                     <h2 class="fs-4 mb-3 text-uppercase">
+                         Term and Termination
+                     </h2>
+                     <ul>
+                         <li>
+                             These Terms shall remain effective for as long as you access or use this website.
+                             At our sole discretion, and without prior notice, we reserve the right to restrict or
+                             revoke your access to the website, including by blocking specific IP
+                             addresses—for any reason or no reason at all, without incurring liability.
+
+                         </li>
+                         <li>
+                             We also retain the authority to terminate your use or involvement with the
+                             website, or to remove any content or information you have posted, at any time
+                             and without warning, as we consider appropriate.
+                         </li>
+                     </ul>
+
+                 </div>
+                 <!-- Cookies and Tracking Technologies -->
+                 <div class="card border-0 mb-5">
+                     <h2 class="fs-4 mb-3 text-uppercase">
+                         Cookies and Tracking Technologies
+                     </h2>
+                     <p>This website utilizes cookies and similar tracking tools to improve your browsing
+                         experience, analyze performance, and enhance functionality. You may disable cookies
+                         in your browser settings; however, certain features or services may be affected.
+                     </p>
+                 </div>
+
+
+                 <!-- Accessibility -->
+                 <div class="card border-0 mb-5">
+                     <h2 class="fs-4 mb-3 text-uppercase">
+                         Accessibility
+                     </h2>
+                     <p>We are committed to providing an accessible website experience for all users. If you
+                         encounter any difficulty accessing materials or information, please contact us for
+                         assistance or to request alternative formats.
+                     </p>
+                 </div>
+
+                 <!-- Links to Third-Party Sites -->
+                 <div class="card border-0 mb-5">
+                     <h2 class="fs-4 mb-3 text-uppercase">
+                         Links to Third-Party Sites
+                     </h2>
+                     <p>Our website may contain links to external websites. OnTrack Physical Therapy & Wellness is not
+                         responsible for the content, privacy practices, or accuracy of information
+                         on third-party sites.
+                     </p>
+                 </div>
+
+                 <!-- Limitation of Liability -->
+                 <div class="card border-0 mb-5">
+                     <h2 class="fs-4 mb-3 text-uppercase">
+                         Limitation of Liability
+                     </h2>
+                     <p>OnTrack Physical Therapy & Wellness, its employees, and affiliates shall not be liable
+                         for any direct, indirect, incidental, or consequential damage arising from your use of or
+                         inability to use this website, including but not limited to reliance on information
+                         presented here.
+                     </p>
+                 </div>
+
+
+                 <!-- General Disclaimer -->
+                 <div class="card border-0 mb-5">
+                     <h2 class="fs-4 mb-3 text-uppercase">
+                         General Disclaimer
+                     </h2>
+                     <p>Please note that the website may, at times, contain typographical mistakes,
+                         inaccuracies, or omissions in areas such as descriptions, pricing, and availability,
+                         among others. We reserve the right to amend or update any such errors, inaccuracies,
+                         or omissions, and may modify the information on the website at any time without prior
+                         notice.
+                     </p>
+                 </div>
+
+                 <!-- Dispute Resolution Policyr -->
+                 <div class="card border-0 mb-5">
+                     <h2 class="fs-4 mb-3 text-uppercase">
+                         Dispute Resolution Policy
+                     </h2>
+                     <p>In the event of any dispute, claim, or controversy arising out of or relating to your use of
+                         this website, our services, or these Terms and Use, the following procedures shall
+                         apply:
+                         We encourage users to first attempt to resolve any concerns or disputes informally by
+                         contacting us directly. Please email admin@ontrackphysicaltherapy.com or call 281-
+                         246-0103 with a description of the issue. We will make reasonable efforts to address
+                         and resolve your concerns promptly and amicably. To ensure disputes are resolved
+                         efficiently and cost-effectively, both parties agree to engage in informal negotiations for
+                         at least 14 days before initiating formal arbitration proceedings.
+                         If an informal resolution does not satisfactorily address the dispute, both parties agree
+                         to attempt to resolve the matter through good faith mediation before pursuing any formal
+                         legal action. The mediation shall take place in Texas. Each party shall bear its own
+                         costs associated with the mediation, unless otherwise agreed. If mediation is
+                         unsuccessful, and unless otherwise prohibited by law, disputes may then be submitted
+                         to binding arbitration in accordance with the rules of the American Arbitration
+                         Association or another agreed-upon arbitration service. Arbitration shall take place in
+                         Texas. Any arbitration that follows will be strictly limited to the individual dispute
+                         between the parties. To the fullest extent permitted by law:
+                     </p>
+                     <ul>
+                         <li>
+                             Arbitration shall not be consolidated with any other legal actions or proceedings.
+                         </li>
+                         <li>
+                             There is no entitlement or authority for any dispute to be handled as a class
+
+                         </li>
+                     </ul>
+                     <p>
+                         action or to employ class-action mechanisms.
+                     </p>
+                     <ul>
+                         <li>
+                             No dispute may be brought or arbitrated in a representative capacity on behalf of
+                         </li>
+                     </ul>
+                     <p>
+                         others or the general public.
+                     </p>
+                     <p>
+                         Please ask our dispute resolution policy for more details.
+                     </p>
+                 </div>
+
+                 <!-- Modifications to Terms -->
+                 <div class="card border-0 mb-5">
+                     <h2 class="fs-4 mb-3 text-uppercase">
+                         Modifications to Terms
+                     </h2>
+                     <p>We reserve the right to modify, update, or revise these Terms and Use at any time.
+                         Changes will be posted on this page, and continued use of the site indicates
+                         acceptance of the updated terms.
+                     </p>
+                 </div>
+
+                 <!-- Governing Law -->
+                 <div class="card border-0 mb-5">
+                     <h2 class="fs-4 mb-3 text-uppercase">
+                         Governing Law
+                     </h2>
+                     <p>These Terms and Use are governed by the laws of the State of Texas and any
+                         applicable federal laws of the United States. Any disputes arising from use of this
+                         website shall be subject to the jurisdiction of Texas courts.
+                     </p>
+                 </div>
+
+                 <!-- Contact Information -->
+                 <div class="card border-0">
+                     <h2 class="fs-4 mb-3 text-uppercase">
+                         Contact Information
+                     </h2>
+                     <p>For questions, clarifications, or requests regarding these Terms and Use, please email
+                         us at admin@ontrackphysicaltherapy.com or give us a call at 281-246-0103.
+                     </p>
+                 </div>
+             </div>
+         </div>
+     </section>
+     <!-- ===========policy end========== -->
+
+     <!-- ===================footer area start======================= -->
+     <footer class="footer_area py-lg-5 py-4">
+         <div class="container-fluid">
+             <div class="px-xxl-4">
+                 <h1>
+                     Contact Us
+                 </h1>
+                 <div class="row g-lg-5 g-3">
+                     <div class="col-lg-6 col-md-6">
+                         <div class="footerlogo_area">
+                             <div class="logo_area">
+                                 <a href="index.html" class="logo">
+                                     <img src="assets/images/onTracklogo.png" alt="OnTrack">
+                                     <ul>
+                                         <li>
+                                             OnTrack Physical Therapy & wellness
+                                         </li>
+                                         <li>
+                                             where you get back on track
+                                         </li>
+                                     </ul>
+                                 </a>
+                             </div>
+                         </div>
+                         <div class="map_area">
+                             <iframe
+                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3456.479750957938!2d-95.70116252382749!3d29.96563962229911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640d5c7e3c9518b%3A0x1479864bba539faf!2s17820%20Mound%20Rd%2C%20Cypress%2C%20TX%2077433%2C%20USA!5e0!3m2!1sen!2sbd!4v1755794570881!5m2!1sen!2sbd"
+                                 width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                                 referrerpolicy="no-referrer-when-downgrade"></iframe>
+                         </div>
+                         <div class="address_area">
+                             <div class="row g-4">
+                                 <div class="col-xl-7  col-md-12 col-sm-7">
+                                     <ul class="addressList">
+                                         <li>
+                                             17820 Mound Rd. , Suite: E, Cypress, TX 77433
+                                         </li>
+                                         <li>
+                                             <div class="d-flex justify-content-start align-items-center gap-3">
+                                                 <span>
+                                                     <b>PH :</b> 281-246-0103
+                                                 </span>
+                                                 <span>
+                                                     <b>Fax :</b> 281-246-1026
+                                                 </span>
+                                             </div>
+                                         </li>
+                                         <li>
+                                             <b>Email:</b> admin@ontrackphysicaltherapy.com
+                                         </li>
+                                     </ul>
+                                 </div>
+                                 <div class="col-xl-5  col-md-12 col-sm-5">
+                                     <ul class="addressList">
+                                         <li>
+                                             <b>Mon:</b> 9 to 4
+                                         </li>
+                                         <li>
+                                             <b>Wed:</b> 8 to 6
+                                         </li>
+                                         <li>
+                                             <b>Fri:</b> 1 to 6
+                                         </li>
+                                         <li>
+                                             <b>Sat:</b> With appointments only
+                                         </li>
+                                     </ul>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="col-lg-6 col-md-6">
+                         <hr class="d-md-none d-block bg-white">
+                         <form action="" class="contact_form">
+                             <div class="row g-4">
+                                 <div class="col-xl-6 col-md-12 col-sm-6">
+                                     <label for="">Full Name</label>
+                                     <input type="text" placeholder="Your First Name">
+                                 </div>
+                                 <div class="col-xl-6 col-md-12 col-sm-6">
+                                     <label for="">Last Name</label>
+                                     <input type="text" placeholder="Your Last Name">
+                                 </div>
+                                 <div class="col-xl-6 col-md-12 col-sm-6">
+                                     <label for="">Your Email</label>
+                                     <input type="text" placeholder="Your Email">
+                                 </div>
+                                 <div class="col-xl-6 col-md-12 col-sm-6">
+                                     <label for="">contact number</label>
+                                     <input type="text" placeholder="Your Contact Number">
+                                 </div>
+                                 <div class="col-xl-12">
+                                     <label for="">subject</label>
+                                     <input type="text" placeholder="subject">
+                                 </div>
+                                 <div class="col-xl-12">
+                                     <label for="">message</label>
+                                     <textarea name="" id="" placeholder="Your message"></textarea>
+                                 </div>
+                                 <div class="col-xl-12">
+                                     <button class="btn submitBtn btn-primary">
+                                         Send Message
+                                     </button>
+                                 </div>
+                             </div>
+                         </form>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </footer>
+     <div class="copywriteArea">
+         <ul class="footernavlink_list">
+             <li>
+                 <a href="privacyPolicy.html">Privacy Policy</a>
+             </li>
+             <li>
+                 |
+             </li>
+             <li>
+                 <a href="termsandUse.html">Terms and Use</a>
+             </li>
+             <li>
+                 |
+             </li>
+             <li>
+                 <a href="services.html">Services</a>
+             </li>
+         </ul>
+         <p class="copywriteText">Copyright 2025 @ OnTrack Physical Therapy & Wellness. All rights reserved</p>
+     </div>
+     <!-- ===================footer area end======================= -->
+
+
+     <!-- ============back to top start=========== -->
+     <button id="backToTop"><i class="fa-solid fa-arrow-up"></i></button>
+     <!-- ============back to top ene=========== -->
 
 
 
 
 
-    <!-- bootstrap js -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous">
-    </script>
-    <!-- Latest jQuery CDN -->
-    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+     <!-- bootstrap js -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+         integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous">
+     </script>
+     <!-- Latest jQuery CDN -->
+     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
 
-    <!-- custom js -->
-    <script src="assets/js/main.js"></script>
+     <!-- custom js -->
+     <script src="assets/js/main.js"></script>
 
-    <!-- preloader -->
-    <script>
-        window.addEventListener("load", function () {
-            setTimeout(() => {
-                document.getElementById("preloader").style.display = "none";
-            }, 1000);
-        });
-    </script>
-</body>
+     <!-- preloader -->
+     <script>
+         window.addEventListener("load", function () {
+             setTimeout(() => {
+                 document.getElementById("preloader").style.display = "none";
+             }, 1000);
+         });
+     </script>
+ </body>
 
-</html>
+ </html>
